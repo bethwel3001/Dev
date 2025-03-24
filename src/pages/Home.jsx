@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useState, useEffect } from 'react';
 import { FiGithub, FiMail } from 'react-icons/fi';
+import profileImage from '../assets/profile.jpg';
 
 const Home = () => {
   const [ref, inView] = useInView({ threshold: 0.1 });
@@ -32,8 +33,8 @@ const Home = () => {
             className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl"
           >
             <img 
-              src="/assets/profile.jpg" 
-              alt="Profile"
+              src={profileImage} 
+              alt="Profile Image"
               className="w-full h-full object-cover"
             />
           </motion.div>
