@@ -29,8 +29,8 @@ const Contact = () => {
                   <FiMail className="text-blue-500 dark:text-blue-400 mt-1 mr-4" />
                   <div>
                     <h4 className="font-medium text-gray-700 dark:text-gray-300">Email</h4>
-                    <a href="mailto:hello@example.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
-                      hello@example.com
+                    <a href="mailto:kiplagatbethwelk@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+                      Be Tu@gmail.com
                     </a>
                   </div>
                 </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                   <FiMapPin className="text-blue-500 dark:text-blue-400 mt-1 mr-4" />
                   <div>
                     <h4 className="font-medium text-gray-700 dark:text-gray-300">Location</h4>
-                    <p className="text-gray-600 dark:text-gray-400">Nairobi, Kenya</p>
+                    <p className="text-gray-600 dark:text-gray-400">Kisumu, Kenya</p>
                   </div>
                 </div>
               </div>
