@@ -6,7 +6,7 @@ import profileImage from '../assets/profile.jpg';
 
 const Home = () => {
   const [ref, inView] = useInView({ threshold: 0.1 });
-  const roles = ["Developer", "Designer", "Student", "Tech Enthusiast"];
+  const roles = ["Software Engineer", "Graphic Designer", "Comp Sci Major", "Fullstack Developer", "Tech Enthusiast", "Software Engineer"];
   const [currentRole, setCurrentRole] = useState(0);
 
   // Role rotation every 2 seconds
@@ -46,7 +46,7 @@ const Home = () => {
               animate={{ y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              Hi, I'm Be Tu
+              Hi, Iam Be Tu
             </motion.h1>
             
             <motion.div
