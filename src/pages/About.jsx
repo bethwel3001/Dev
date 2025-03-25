@@ -7,25 +7,25 @@ const About = () => {
     {
       icon: <FiCode className="w-6 h-6" />,
       title: "Developer",
-      description: "Full-stack expertise with React, Node.js, and modern frameworks.",
+      description: "Full-stack expertise with React, Node.js, and modern frameworks. Perfecting is my slogan.",
       borderColor: "border-blue-500"
     },
     {
       icon: <FiBook className="w-6 h-6" />,
       title: "Student",
-      description: "Computer Science major with focus on AI and distributed systems.",
+      description: "Computer Science major with focus on Software Engineering, Fullstack development and IOT.",
       borderColor: "border-green-500"
     },
     {
       icon: <FiGlobe className="w-6 h-6" />,
-      title: "GDSC Lead",
-      description: "Leading Google Developer Student Club at my university.",
+      title: "GDG Lead",
+      description: "Leading Google Developer Student Club at The Co-operative university of Kenya (2024-2025).",
       borderColor: "border-purple-500"
     },
     {
       icon: <FiAward className="w-6 h-6" />,
       title: "Hackathons",
-      description: "Won 3 hackathons with projects focused on social impact.",
+      description: "Participated on several hackathons and Tech-events, pitched with projects focused on social impact.",
       borderColor: "border-yellow-500"
     }
   ];
@@ -83,7 +83,7 @@ const About = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-          <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">My Journey</h3>
+          <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Tech Journey</h3>
           <p className="text-sm md:text-base">
             From coding my first "Hello World" to building scalable applications, I thrive on solving complex problems with elegant solutions. When I'm not coding, I mentor aspiring developers and organize tech events.
           </p>
@@ -92,7 +92,7 @@ const About = () => {
         {/* Simplified Tech Stack */}
         <div className="mt-12 md:mt-16">
           <h3 className="text-xl md:text-2xl font-bold text-center mb-6 md:mb-8 text-gray-900 dark:text-white">
-            Tech Stack
+            Technology Stack
           </h3>
           <div className="py-4">
             <div className="flex flex-wrap justify-center gap-6 md:gap-8">
