@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Introduction Text */}
           <div className="mb-8">
             <p className="text-gray-700 dark:text-gray-300 mb-2">
-              Hi, I'm <span className="font-semibold">Be Tu</span>, alias Bethwel Kiplagat, the developer behind projects like 
+              Hi, I'm <span className="font-semibold">Bethwel Kiplagat</span>, alias <strong>Be Tu</strong>, the developer behind projects like 
               <span className="font-medium"> Eventify</span>, 
               <span className="font-medium"> ConnectLink</span>, and many more. I'm a passionate developer with a keen interest in technology and software.
             </p>
