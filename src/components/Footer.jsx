@@ -53,7 +53,7 @@ const Footer = () => {
             </motion.a>
             
             <motion.a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/bethwel-kiplagat-1314912a0/"
               target="_blank"
               whileHover={{ y: -2 }}
               className="flex items-center gap-1 text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-500 transition-colors"
